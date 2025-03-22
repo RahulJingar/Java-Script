@@ -15,3 +15,16 @@ for(let i of str)
     console.log(i)
 }
 // output: Ashish","Rahul","Manish","Jitesh","Kavish","Palkesh
+
+
+3. 
+let rectangle = [{
+    length:2,
+    breadth:4
+}]
+for(let key of rectangle)
+{
+    console.log(key)
+}
+
+// output: {length:2,breadth:4}
