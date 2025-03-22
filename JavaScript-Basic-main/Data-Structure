@@ -1,0 +1,8 @@
+1.
+let lastName = "Jekar";
+console.log(typeof lastName)
+
+2.
+let firstName = new String('Rahul');
+console.log(typeof firstName)
+//object
