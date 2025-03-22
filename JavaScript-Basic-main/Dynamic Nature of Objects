@@ -1,0 +1,9 @@
+function Dynamic(len,bre){
+    this.length = len;
+    this.breadth = bre;
+    this.draw = function(){
+        console.log("hello javaScript")
+    }
+}
+let result = new Dynamic(172,35);      
+console.log(result)
