@@ -20,3 +20,81 @@ console.log(Math.abs(-2))
 //output 2
 
 6.
+let str = "hello world";
+console.log(str.includes('he'))
+//true
+
+7.
+let str = "hello world";
+console.log(str.includes('eh'))
+//false
+
+8.
+let str = "Hello Rahul";
+console.log(str.endsWith('ul'));
+//true
+
+9.
+let str = "Hello Manish";
+console.log(str.endsWith('ni'));
+//false
+
+10.
+let str = "hello ashish";
+console.log(str.toUpperCase());
+//output:HELLO ASHISH
+
+11.
+let str = "HELLO JITESH";
+console.log(str.toLowerCase());
+// output:hello jitesh
+
+12.
+let str = "               Hello Kavish!!";
+console.log(str.trim());
+// output:Hello Kavish!!
+
+13.
+let str = "hello world";
+console.log(str.replace("world","duniya"));
+//output:hello duniya
+
+14.
+let str = "hello my name is rahul jingar";
+console.log(str.split(" "));
+//output:['hello', 'my', 'name', 'is', 'rahul', 'jingar']
+
+15.
+let str = "hello \n my name \n is rj";
+console.log(str)
+//output:hello 
+//  my name 
+//  is rj
+
+16.
+let str = `good morning 
+my name is 
+rahul jingar
+ from ajmer`;
+ console.log(str);
+//  output:good morning 
+// my name is 
+// rahul jingar
+//  from ajmer
+
+17. 
+let firstName = "Rahul";
+let str = `hello
+ good morning 
+ my name is 
+ ${firstName}`;
+ console.log(str)
+//output:  hello
+//  good morning 
+//  my name is 
+//  Rahul
+
+18.
+let date = new Date()
+console.log(date);
+//output: today date and time
