@@ -1,5 +1,4 @@
-// for in loop
-
+1.
 let rectangle = {
     length:2,
     breadth:4
@@ -12,3 +11,16 @@ for(let key in rectangle)
 // output: length 2
 // output: breadth 4
 
+
+2.
+let rectangle = {value:10};
+let ans = [];
+for(key in rectangle)
+{
+    ans[key] = rectangle[key];
+    console.log(ans)
+    console.log(rectangle);
+}
+
+//output:[value: 10]
+// {value: 10}
