@@ -1,0 +1,11 @@
+1.
+let courses = [
+    {number:1,name:"krishna"},
+    {number:2,name:"rahul"},
+]
+let result = courses.find(function(courses){
+    return courses.name == 'krishna'
+})
+
+console.log(result);
+//output:{number: 1, name: 'krishna'}
