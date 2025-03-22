@@ -1,0 +1,14 @@
+// for in loop
+
+let rectangle = {
+    length:2,
+    breadth:4
+}
+for(let key in rectangle)
+{
+    console.log(key, rectangle[key])
+}
+
+// output: length 2
+// output: breadth 4
+
