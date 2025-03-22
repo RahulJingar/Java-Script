@@ -1,0 +1,22 @@
+1.
+console.log(Math.random())
+// output:- 0-1 select the random value
+
+2.
+console.log(Math.round(1.2))
+console.log(Math.round(1.8))
+// output: 1 and 2
+
+3.
+console.log(Math.max(1,4,3,2))
+//output:4
+
+4.
+console.log(Math.min(1,4,3,2))
+//output:1
+
+5.
+console.log(Math.abs(-2))
+//output 2
+
+6.
