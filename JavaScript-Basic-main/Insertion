@@ -1,0 +1,63 @@
+1.
+let number = [1,2,3,4,5];
+number.push(6);
+console.log(number);
+//output:[1, 2, 3, 4, 5, 6]
+
+2.
+let number = [1,2,3,4,5];
+number.pop();
+console.log(number);
+//output:[1,2,3,4]
+
+3.
+let number = [2,3,4,5];
+number.unshift(1)
+console.log(number);
+//output:[1,2,3,4,5]
+
+4.
+let number = [1,2,3,4,5];
+number.shift();
+console.log(number);
+//output:[2,3,4,5]
+
+5.
+let number = [1,2,3,4,5];
+number.splice(2,1,5,6);
+console.log(number);
+// output:[1,2,5,6,4,5]
+
+6.
+let number = [1,2,3,4,5];
+console.log(number.indexOf(3));
+//output:2
+
+7.
+let number = [1,2,3,4,5];
+console.log(number.indexOf(6));
+//output:-1
+
+8.
+let number = [10,20,30,40,50];
+if(number.indexOf(20)!=-1)
+{
+    console.log("this is present");
+}
+else
+{
+    console.log("this is not present");
+}
+//output:this is present
+
+9.
+let number = [10,20,30,40,50];
+let result = number.indexOf(30,2);
+console.log(result);
+//output:2 it will be check the index
+
+10.
+let number = [10,20,30,40,50];
+let ans = number.indexOf(30,4);
+console.log(ans);
+//output:-1 because it will be not in the index
