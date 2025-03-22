@@ -1,0 +1,21 @@
+1. 
+function constructor(){
+    this.height = 1;
+    this.breadth = 2;
+    this.draw = function(){
+        console.log("hello world")
+    }
+}
+let result = new constructor();
+console.log(result)
+
+2. 
+function constructor(len,bre){
+    this.length = len;
+    this.breadth = bre;
+    this.draw = function(){
+        console.log("hello prajjal sir how are you");
+    }
+}
+let result = new constructor(5,7);
+console.log(result)
