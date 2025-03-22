@@ -1,0 +1,4 @@
+let arr = 'hello good morning my name is rahul jingar';
+let ans = arr.split('_')
+console.log(ans);
+//output:['hello good morning my name is rahul jingar']
