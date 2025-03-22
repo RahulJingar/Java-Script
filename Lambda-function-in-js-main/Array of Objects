@@ -1,0 +1,7 @@
+let arr = [
+    {no:1,name:"hari mohan"},
+    {no:2,name:"Rahul"}
+]
+let result = arr.find(value =>value.name=="Rahul")
+console.log(result)
+//output:{no: 2, name: 'Rahul'}
